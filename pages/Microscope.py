@@ -101,8 +101,8 @@ st.set_page_config(page_title="Token Feature Analysis", layout="wide", page_icon
 st.markdown("<h1 style='color:#1F618D;text-align:center;'>Token Feature Analysis Dashboard</h1>", unsafe_allow_html=True)
 
 
-if st.sidebar.button('Steer', use_container_width=True):
-    switch_page("Steer")
+# if st.sidebar.button('Steer', use_container_width=True):
+#     switch_page("Steer")
 
 # Sidebar Input
 st.sidebar.markdown("<h3 style='color:#1ABC9C;'>Input Sentence</h3>", unsafe_allow_html=True)
