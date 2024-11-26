@@ -21,7 +21,7 @@ if "available_descriptions" not in st.session_state:
 # API details
 API_URL = "https://www.neuronpedia.org/api/steer-chat"
 SEARCH_API_URL = "https://www.neuronpedia.org/api/explanation/search-model"
-MODEL_ID = "gemma-2-9b"
+MODEL_ID = "gemma-2-9b-it"
 HEADERS = {"Content-Type": "application/json", "X-Api-Key": "YOUR_TOKEN"}
 
 
